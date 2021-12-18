@@ -16,6 +16,10 @@ PRODUCT_PACKAGES += \
     libudfpshandler \
     vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor
 
+# HotwordEnrollement app permissions
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
