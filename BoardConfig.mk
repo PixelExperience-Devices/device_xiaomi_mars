@@ -16,7 +16,8 @@ TARGET_BOOTLOADER_BOARD_NAME := mars
 TARGET_SCREEN_DENSITY := 560
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/star_QGKI.config
+TARGET_KERNEL_SOURCE := kernel/xiaomi/mars
+TARGET_KERNEL_CONFIG := vendor/mars_defconfig
 
 # Kernel modules
 BOOT_KERNEL_MODULES := \
