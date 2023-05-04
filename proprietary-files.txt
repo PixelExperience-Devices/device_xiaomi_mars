@@ -189,6 +189,7 @@ vendor/lib64/libBlinkStub.so
 vendor/lib64/libFlickerDet.so
 vendor/lib64/libI420colorconvert.so
 vendor/lib64/libQnnHtpStub.so
+vendor/lib64/libMegviiFacepp-0.5.2.so
 vendor/lib64/libSNPE.so
 vendor/lib64/libSuperSensorCPU.so
 vendor/lib64/libaidenoiser.so
@@ -215,8 +216,7 @@ vendor/lib64/libhdrdynamic.so
 vendor/lib64/libhdrdynamicootf.so
 vendor/lib64/libhexagon_controller.so
 vendor/lib64/libipebpsstriping.so
-vendor/lib64/libmiXmlParser.so
-vendor/lib64/libmiai_deblur.so
+vendor/lib64/libmegface.so
 vendor/lib64/libmiai_facialrestoration.so
 vendor/lib64/libmiai_portraitsupernight.so
 vendor/lib64/libmialgo_ai_vision.so
@@ -504,6 +504,7 @@ vendor/etc/camera/fusion_models/fusion_policy
 vendor/etc/camera/intsense_config_optical_zoom_3sat.bin
 vendor/etc/camera/intsense_config_optical_zoom_3sat_pro.bin
 vendor/etc/camera/mars_motiontuning.xml
+vendor/etc/camera/megviifacepp_0_5_2_model
 vendor/etc/camera/mibokeh/add_concat_quantize_encry.dlc
 vendor/etc/camera/mibokeh/model_dxo.dlc
 vendor/etc/camera/mibokeh/portrait_blur_800_quan_encry-softmax.dlc
